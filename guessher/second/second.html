@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level two</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+
+    <p><i class="arrow left"></i></p>
+
+    <div class="text">
+
+        <div id="title">
+            <h1>the go-to.</h1>
+         </div>
+    
+         <div id="question">
+            I am plain but light. and served cold.
+
+            what's my go-to order?
+            <p>hint: hmm... what's that arrow?</p>
+         </div>
+    </div>
+
+    <div class="container">
+        <div id="left">
+            <div class="list" draggable="true">
+                LATTE
+            </div>
+
+            <div class="list" draggable="true">
+                TEA
+            </div>
+
+            <div class="list" draggable="true">
+                HOT CHOCOLATE
+            </div>
+
+            <div   class="list" draggable="true" ondragend="correct()">
+                <div class="yes" >
+                    COLDBREW
+                </div>
+                
+            </div>
+
+            <div class="list" draggable="true">
+                FLAT WHITE
+            </div>
+
+        </div>
+        <div id="right"></div>
+        <div class="text">
+            <p> -- place the correct answer in this box. </p>
+        </div>
+    </div>
+
+    <script src="second.js"></script>
+</body>
+</html>

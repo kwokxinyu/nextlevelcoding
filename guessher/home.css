@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(248, 232, 212);
+}
+
+a {
+    color: black;
+    font-family: "gambado-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+
+}
+
+
+a:link { 
+    text-decoration: none; 
+    color: transparent;
+  } 
+
+  a:hover {
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    color: black;
+  }
+  
+
+.howtoplay {
+    margin-top: 3em;
+    text-align: center;
+    text-shadow: 0 0 8px #000;
+}
+
+.howtoplay:hover {
+    text-shadow: none;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 80px;
+   
+    
+}
+
+.start {
+    text-align: center;
+    position: relative;
+    text-shadow: 0 0 8px #000;
+    word-spacing: -2px;
+     
+}
+
+.start:hover {
+    text-shadow: none;
+}
+
+
+@import url("https://use.typekit.net/hmt4zhf.css");

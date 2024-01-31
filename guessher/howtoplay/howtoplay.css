@@ -1,0 +1,47 @@
+
+body {
+    background-color: rgb(248, 232, 212);
+}
+
+.text {
+    text-align: center;
+    margin-top: 3em;
+   
+}
+
+#top {
+    font-family: "gambado-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+}
+
+#title {
+    padding-top: 15em;
+    padding-left: 10em;
+    padding-right: 10em;
+    
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+    margin-top: 15em;
+    font-family: "gambado-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    
+}
+
+a {
+    color: transparent;
+    text-shadow: 0 0 8px #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-shadow: none
+}
+
+@import url("https://use.typekit.net/hmt4zhf.css");
