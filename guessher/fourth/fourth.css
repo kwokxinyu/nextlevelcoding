@@ -1,0 +1,36 @@
+@import url("https://use.typekit.net/hmt4zhf.css");
+
+body {
+    background-color: rgb(248, 232, 212);
+}
+
+.text {
+    text-align: center;
+}
+
+.question {
+    font-family: "gambado-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;   
+    margin-top: 10em; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+img {
+    width: 60%;
+    height: auto; 
+}
+
